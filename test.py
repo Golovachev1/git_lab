@@ -1,3 +1,5 @@
+text = "Hello world"
+print(text)
 with open('output.txt', 'w') as f:
-    f.write("Hello, world!\n")
+    f.write(text + "\n")
     
